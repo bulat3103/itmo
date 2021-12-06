@@ -1,9 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <errno.h>
-#include "image.h"
-#include "file_manager.h"
-#include "rotate.h"
+#include "../../image/image.h"
+#include "../../file/file_manager.h"
+#include "../../rotate/rotate.h"
 
 static const char* read_message[] = {
 	[READ_OK] = "Данные прочитаны успешно!\n",

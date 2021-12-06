@@ -1,8 +1,8 @@
 #ifndef _FILE_MANAGER
 #define _FILE_MANAGER
 
-#include "image.h"
-#include "bmp.h"
+#include "../image/image.h"
+#include "../bmp/bmp.h"
 #include <stdio.h>
 
 enum read_status read_image_from_file(FILE* in, struct image* const image);

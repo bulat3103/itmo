@@ -1,6 +1,6 @@
-#include "bmp.h"
+#include "../../bmp/bmp.h"
 #include <stdlib.h>
-#include "image.h"
+#include "../../image/image.h"
 
 enum read_status from_bmp( FILE* in, struct image* const img ) {
 	struct bmp_header bmp_header= {0};

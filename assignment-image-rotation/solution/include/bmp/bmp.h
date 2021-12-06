@@ -1,8 +1,7 @@
 #ifndef _bmpReader
 #define _bmpReader
-#include "bmp.h"
 #include <stdlib.h>
-#include "image.h"
+#include "../image/image.h"
 
 struct bmp_header 
 {
